@@ -1,0 +1,74 @@
+body {
+  background-color: sienna;
+}
+
+.nav ul li{
+  list-style: none;
+  display: inline-flex;
+  padding: 10px 65px ;
+  background-color: sandybrown;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  width: 130px;
+}
+
+.deco a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+
+
+.tit {
+  background-color: chocolate;
+  text-align: center;
+  padding: 20px;
+}
+
+.flex-container1 {
+  display: flex;
+  background-color: chocolate;
+  padding: 10px;
+  height: auto;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.flex-item1 {
+  background: tan;
+  border: 2px, solid, black;
+  text-align: center;
+}
+
+.flex-item1 img {
+  width: 100%;
+}
+
+
+.pie {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: burlywood;
+  padding: 10px;
+  height: 170px;
+  gap: 15px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.flex-item {
+  background-color: black;
+  border: 2px solid black;
+  width: 200px;
+  color: white;
+}
