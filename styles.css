@@ -2,9 +2,11 @@ h3 {
    color: brown;
 
 }
+
 body {
   background-color: sienna;
 }
+
 
 .imagen {
   padding-left: 180px;
@@ -12,7 +14,8 @@ body {
 
 
 .tit {
-  background-color: chocolate;
+  background-image: linear-gradient(to right, chocolate, rgba(220, 193, 21, 0.927));
+  /*background-color: chocolate;*/
   text-align: center;
   padding: 20px;
 }
@@ -35,6 +38,17 @@ body {
 .banner1 {
   margin: 0 auto;
   justify-content: center;
+}
+
+
+.zoom {
+  transition: transform 1.5s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3); 
 }
 
 .main__section-text {
@@ -222,4 +236,3 @@ ul li {
 .flex-item-Csur img {
   width: 100%;
 }
-
