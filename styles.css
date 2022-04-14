@@ -14,18 +14,19 @@ body {
 
 
 .tit {
-  background-image: linear-gradient(to right, chocolate, rgba(220, 193, 21, 0.927));
-  /*background-color: chocolate;*/
+  /*background-image: linear-gradient(to right, chocolate, rgba(220, 193, 21, 0.927));*/
+  background-color: chocolate;
   text-align: center;
   padding: 20px;
 }
 
-.nav ul li{
+
+/*.nav ul li{
   list-style: none;
   display: inline-flex;
   padding: 10px 65px ;
   background-color: sandybrown;
-  width: 130px;
+  width: 130px;*/
 }
 
 .deco a {
@@ -66,6 +67,10 @@ body {
   justify-content: left!important;
 }
 
+.article__section-first {
+  margin: 40px, 30px;
+}
+
 .article__section-title ul li {
   list-style: none;
 }
@@ -73,7 +78,6 @@ body {
 .article__section-listado {
   justify-content: left!important;
 }
-
 
 
 #grid-container {
@@ -160,8 +164,9 @@ body {
   background-color: burlywood;
   padding: 10px;
   gap: 15px;
-  flex-flow: row wrap;
-  justify-content: space-between;
+  /*flex-flow: row wrap;*/
+  /*justify-content: space-between;*/
+  flex-grow: initial;
   
 }
 
@@ -194,6 +199,7 @@ ul li {
 .foto-indigena{
   display: flex;
   width: 100%;
+  margin-bottom: 60px;
 }
 
 .container-caps {
